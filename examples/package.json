@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-deny-some-modules-full-import-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "eslint --init",
+    "lint": "./node_modules/eslint/bin/eslint.js ./test.js --config .eslintrc.js",
+    "fix": "./node_modules/eslint/bin/eslint.js ./test.js --config .eslintrc.js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "eslint-plugin-deny-some-modules-full-import": "file:.."
+  }
+}
